@@ -1,0 +1,68 @@
+.pack{
+  padding: 1em;
+}
+.co {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+#blues{
+  padding: 2em;
+}
+
+#section1{
+  height: 100px;
+}
+#section2{
+}
+
+#section3{
+  height: 100px;
+}
+
+h4{
+  font-size: 20px;
+}
+
+header, footer {
+    padding: 1em;
+    color: black;
+    background-color: #F25A02;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    font-size: 25px;
+    float: left;
+    height: 600PX;
+    display: inline-block;
+    background-color: #E0E0E0;
+    width: 20%;
+}
+
+
+article {
+    float: left;
+    display: inline-block;
+    width: 80%;
+}
+
+.diff{
+  padding: 1em;
+  background-color: #E0E0E0;
+}
+nav ul {
+    list-style-type: none;
+
+
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+nav ul li{
+  cursor:pointer;
+border-bottom:solid 1px #ffffff;
+}

@@ -1,0 +1,86 @@
+import React, { Component } from 'react';
+import ReactDom from 'react-dom';
+
+
+//We will write a component here.
+
+
+
+const App = () => {
+
+
+  return (
+    <div class="co">
+
+  <header>
+     <h1>Guitar Reviews</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="shred.html">Shred Guitars</a></li>
+      <li><a href="blues.html">Blues Guitars</a></li>
+      <li><a href="acoustic.html">Acoustic Guitar</a></li>
+    </ul>
+  </nav>
+
+  <article>
+  <div id="maindiv">
+    <center><h1 id="shred">Shred Special</h1></center>
+    <div class="diff">
+    <h3>Musicman Majesty Artisan</h3>
+    <center><img src="m.png" alt="Musicman Majesty Artisan" height="140" width="350" /></center>
+    <p>
+      The Artisan Majesty is an update of the version released in 2014 and features some significant differences from the original design. Visually the guitar is the same unique shape with the exaggerated contours and horns compared to the JP models but, unlike last year’s basswood model, the Artisan version features an African mahogany body matched to the same laser etched maple top, Honduran mahogany neck with and ebony fretboard from the original. Hardware is identical to the JP15 model above with stainless steel frets, locking tuners, Illuminator humbuckers and floating bridge with piezo saddles. The controls also function identically with the same 20dB boost on the volume pot and split coil option on the tone pot plus the piezo volume and EQ controls on the back. The only marked difference in hardware is the removal of the dual output jacks in favour of a single jack that can be switched between stereo and mono operation via a push/push function on the piezo volume pot.The Artisan Majesty is a stunning looking guitar and a little easier on the eyes than the original, thanks to the translucent finishes showing the lovely mahogany grain and flame maple top. The same laser etched shield is still present and looks great, offering a futuristic carbon-fibre effect to this already modern looking instrument. The addition of gold hardware gives the Majesty a majestic (excuse the pun) look and the five different finishes are all attractive and more understated than the previous opaque colours offered on the 2014 model.
+    </p>
+
+    <h3>Ibanez Prestige RG652AHM</h3>
+    <center><img src="ip.png" alt="Ibanez Prestige RG652AHM" height="140" width="350" /></center>
+    The RG652AHM is an RG series solid body electric guitar model introduced by Ibanez in 2015. It is made in Japan by FujiGen as part of the Prestige line.The RG652AHM features an ash body bolted to a maple and walnut neck with a 24-fret birdseye maple fingerboard with cream binding and black dot position markers. Components include an Edge double locking tremolo bridge, dual DiMarzio humbucking pickups and Gotoh tuning machines.The RG652AHML is a left-handed version. The RG652AHMS is a similar spot model with different pickups. The RG652K is a similar model with an Australian blackwood top and marbled rosewood fretboard.The Ibanez RG652AHM RG Prestige solidbody electric guitar was created to be a supremely playable, great-sounding guitar. The ash RG body gives the guitar a strong treble response, and youll love the feel of the fast, 5-piece maple/walnut Super Wizard HP neck. The RG652AHM RG Prestige uses DiMarzio Tone Zone and Air Norton humbuckers to push your amp for crunchy rhythms or hot leads. Get your hands on this RG652AHM RG Prestige, and find out how far it can take your playing.
+
+    </div>
+    <br />
+    <br />
+
+    <center><h1 id="blues">Blues Special</h1></center>
+    <div class="diff">
+        <h3>Fender American Deluxe Stratocaster</h3>
+        <center><img src="fa.png" alt="Musicman Majesty Artisan" height="140" width="350" /></center>
+        <p>
+          The Artisan Majesty is an update of the version released in 2014 and features some significant differences from the original design. Visually the guitar is the same unique shape with the exaggerated contours and horns compared to the JP models but, unlike last year’s basswood model, the Artisan version features an African mahogany body matched to the same laser etched maple top, Honduran mahogany neck with and ebony fretboard from the original. Hardware is identical to the JP15 model above with stainless steel frets, locking tuners, Illuminator humbuckers and floating bridge with piezo saddles. The controls also function identically with the same 20dB boost on the volume pot and split coil option on the tone pot plus the piezo volume and EQ controls on the back. The only marked difference in hardware is the removal of the dual output jacks in favour of a single jack that can be switched between stereo and mono operation via a push/push function on the piezo volume pot.The Artisan Majesty is a stunning looking guitar and a little easier on the eyes than the original, thanks to the translucent finishes showing the lovely mahogany grain and flame maple top. The same laser etched shield is still present and looks great, offering a futuristic carbon-fibre effect to this already modern looking instrument. The addition of gold hardware gives the Majesty a majestic (excuse the pun) look and the five different finishes are all attractive and more understated than the previous opaque colours offered on the 2014 model.
+        </p>
+
+        <h3>Gibson Memphis ES‑335</h3>
+        <center><img src="gib.png" alt="Gibson Memphis ES‑335" height="140" width="350" /></center>
+        The Gibson ES-335 is the worlds first commercial thinline archtop semi-acoustic electric guitar (also known as "semi-hollowbody" or "thinline"). Released by the Gibson Guitar Corporation as part of its ES (Electric Spanish) series in 1958, it is neither fully hollow nor fully solid; instead, a solid maple wood block runs through the center of its body. The side "wings" formed by the two "cutaways" into its upper bouts are hollow, and the top has two violin-style f-holes over the hollow chambers.ome models (ES 347,ES 369) feature a coil split switch, which allows the humbuckers to produce a "single-coil" sound. The ES-335 Pro, ES-335TD CRS and CRR models were equipped with Gibson "Dirty Fingers" humbuckers, which had a significantly higher output than the standard pickups. [Note: The Dirty Fingers humbucking pickup first appeared in 1972 when Gibson was looking to create a higher gain pickup. What they did was replace the typical single Alnico magnet with two ceramic magnets (more powerful/higher gauss strength).
+    </div>
+        <br />
+        <br />
+
+
+    <center><h1 id="aco">Acoustic Guitar</h1></center>
+    <div class="diff">
+      <h3>Martin 000-17</h3>
+      <center><img src="mac.png" alt="martin 000-17" height="140" width="350" /></center>
+      <p>
+      The 00L-17 is comfortable in all aspects. The test model weighs just three pounds, 11 ounces and is well balanced between the neck and the body. It sits nicely on the lap. And though the instrument’s satin finish is obviously done to keep production costs down, it feels sumptuous; it’s so thin—in a good way—that you can see and feel the grain of the mahogany back, sides, and neck.The neck, described in the Martin literature as a modified low oval with high-performance taper (formerly performing-artist taper), feels slender, but not overly so. With a 1.75-inch nut, it’s generous in the open position, while the relatively narrow width at the 12th fret—21/8 inches as opposed to 21/4, like on a traditional Martin neck—makes it feel sleek to visit the guitar’s upper regions.The guitar’s short scale, 24.9 inches, makes it easier to play chords requiring big stretches than the standard 25.5-inch scale. And, with perfect low action, free from buzzing, it’s really easy to zip around the neck.Not surprising for a modern Martin—the company is making consistently great guitars at all price points—the 00L-17 sounds every bit as awesome as it feels. It’s got a lovely, uncluttered sound, heavy on fundamentals but with shimmering overtones and a nice natural reverb. The string-to-string balance is excellent, as are the projection and sustain. It’s definitely a more powerful instrument than would be expected of one of its size and scale length.The guitar is a sensitive player. When I gently fingerpick a series of major-seventh chords, it sounds lush and dulcet, but when I dig into the strings on a country blues–inspired improvisation in E, it responds with a terrific bark.The 00L-17 takes just as well to picks—specifically, a Red Bear Classic II and a BlueChip TP50—as it does to the fingers. It’s a great guitar for strumming, lacking the booming quality of a dreadnought and having just enough bass. And, thanks to its good clarity and focus, it works equally well for basic triads and extended/altered chords alike: all good assets when it comes to recording
+      </p>
+
+      <h3>Taylor 612ce 12-Fret</h3>
+      <center><img src="ta.png" alt="taylor 612ce 12-Fret" height="140" width="350" /></center>
+      Our 12-fret Grand Concerts feature a shifted neck-to-body relationship, shifting the bridge location in a way that adds robust punch to the midrange notes. Together with the revoiced design details of the 600 Series, players are in for a treat. The smaller body and short-scale neck make for an intimate and comfortable playing experience, while the tonal refinements to the bracing and other materials serve up an inspiring mix of warmth, richness and volume, especially for a small-body guitar. Every material component has been optimized, from the wood and finish thicknesses to the internal bracing — customized for each body shape — to the special roasting process used on the spruce tops to activate a super-responsive, played-in sound. Aesthetic upgrades include a rich, hand-rubbed “Brown Sugar” stain on the back and sides, a new fretboard inlay that carries over to include an inlaid ebony backstrap, ebony and grained ivoroid trim, and a striped ebony pickguard. A Venetian cutaway and Taylor’s Expression System® 2 pickup add playing range and performance versatility.
+      </div>
+  </div>
+  </article>
+
+
+  <footer>Copyright &copy; Chaitanya Potnis Reviews</footer>
+
+  </div>
+);
+}
+
+
+
+//We will take this component from here to DOM
+ReactDom.render(<App></App>, document.querySelector('.container')); // <App></App> is the instance of the class or component App
